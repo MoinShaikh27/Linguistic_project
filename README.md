@@ -24,11 +24,7 @@ meaning between 0 (completely unrelated) and 1
 |Augmented Hindi|5500| 0.50 |0.00 |1.00|
 
 # Model Finetuned For this task
-E5
-LaBSE
-XLNet
-IndicBERT
-IndicSBERT
+|E5| LaBSE| XLNet| IndicBERT| IndicSBERT|
 
 #Results After Finetune
 ### Performance post finetuning XLNet,indic-BERT with whole English and Hindi training dataset
