@@ -17,7 +17,7 @@ meaning between 0 (completely unrelated) and 1
 |Augmented Hindi |7870 |3200|
 
 |Languauge| count| mean| min |max|
-|--------:|------:|-----:------:---:|
+|--------|:------|:-----|:------|:---|
 |English |5500 |0.50 |0.00| 1.0|
 |Marathi| 1200| 0.47 |0.03 |1.00|
 |Telugu |1170 |0.49| 0.08 |0.88|
