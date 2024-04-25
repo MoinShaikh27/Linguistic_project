@@ -8,7 +8,7 @@ of real-valued scores specifying their closeness in
 meaning between 0 (completely unrelated) and 1
 (maximally related).
 
-## Corpus/Data Description                    
+# Corpus/Data Description                    
 | Language|  Training | Testing|
 |---------|:----------|--------:|
 |English |5500 |2600|
@@ -16,15 +16,14 @@ meaning between 0 (completely unrelated) and 1
 |Telugu |1170| 300|
 |Augmented Hindi |7870 |3200|
 
-Languauge count mean min max
-English 5500 0.50 0.00 1.0
-Marathi 1200 0.47 0.03 1.00
-Telugu 1170 0.49 0.08 0.88
-Augmented
-Hindi
-5500 0.50 0.00 1.00
+|Languauge| count| mean| min |max|
+|--------:|------:|-----:------:---:|
+|English |5500 |0.50 |0.00| 1.0|
+|Marathi| 1200| 0.47 |0.03 |1.00|
+|Telugu |1170 |0.49| 0.08 |0.88|
+|Augmented Hindi|5500| 0.50 |0.00 |1.00|
 
-# Model Finetuned
+# Model Finetuned For this task
 E5
 LaBSE
 XLNet
