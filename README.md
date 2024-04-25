@@ -29,3 +29,32 @@ LaBSE
 XLNet
 IndicBERT
 IndicSBERT
+
+#Results After Finetune
+### Performance post finetuning XLNet,indic-BERT with whole English and Hindi training dataset
+over 3 epochs
+| Model           | MSE  | Spearman correlation coefficient |
+|-----------------|------|----------------------------------|
+| XLNet (English) | 0.02 | 0.81                             |
+| XLNet (Hindi)   | 0.03 | 0.12                             |
+| Indic-BERT (English) | 0.02 | 0.81                        |
+| Indic-BERT (Hindi)   | 0.02 | 0.75                        |
+| IndicSBERT       |           |  0.801                     |
+
+### Performance post finetuning E5, LaBSE with only Augmented Hindi sentences in the training dataset over 3 epochs.
+| Model | Discrete Labels | Continuous Labels |
+|-------|-----------------|-------------------|
+| E5    | 0.86            | 0.81              |
+| LaBSE | 0.86            | 0.80              |
+
+
+### Performance post finetuning E5,LaBSE with multilingual training dataset over 3 epochs
+| Model      | Discrete Labels | Continuous Labels |
+|------------|-----------------|-------------------|
+| E5[3]      | 0.86            | 0.82              |
+| LaBSE[3]   | 0.85            | 0.79              |
+
+
+
+
+
