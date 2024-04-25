@@ -9,11 +9,12 @@ meaning between 0 (completely unrelated) and 1
 (maximally related).
 
 ## Corpus/Data Description                    
-Language Training Testing
-English 5500 2600
-Marathi 1200 300
-Telugu 1170 300
-Augmented Hindi 7870 3200
+| Language|  Training | Testing|
+|---------|:----------|--------:|
+|English |5500 |2600|
+|Marathi |1200 |300|
+|Telugu |1170| 300|
+|Augmented Hindi |7870 |3200|
 
 Languauge count mean min max
 English 5500 0.50 0.00 1.0
